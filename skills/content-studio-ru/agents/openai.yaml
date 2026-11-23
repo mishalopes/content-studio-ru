@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Studio RU"
+  short_description: "Русский контент, монтаж, анимация и аналитика"
+  default_prompt: "Используй $content-studio-ru, чтобы подготовить и собрать контент в моём стиле."

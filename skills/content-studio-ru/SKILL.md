@@ -2,7 +2,7 @@
 name: content-studio-ru
 description: >-
   Создавать русскоязычный контент от идеи до готовых файлов. Использовать для
-  сценариев Reels, хуков, подписей, каруселей, Stories, контент-плана, аудита,
+  сценариев Reels, хуков, подписей, статичных и анимированных каруселей отдельными слайдами, Stories, контент-плана, аудита,
   монтажа, распознавания речи и надписей, анимированных субтитров, Remotion, HyperFrames, Lemo Opuscar, MG Styles 15 и серий
   коротких видео. Адаптировать голос и визуал к текущему автору и проверять файлы.
 ---
@@ -21,7 +21,8 @@ description: >-
 | --- | --- |
 | Голос, аудитория, оформление | [project.md](references/project.md), [voice-template.md](references/voice-template.md) |
 | Сценарий, хук, подпись | [content.md](references/content.md), [hooks-ru.md](references/hooks-ru.md), scripts/check_text_ru.py |
-| Профиль, карусель, Stories, план | [checklists.md](references/checklists.md) |
+| Карусель: отдельные PNG/JPG или анимированные MP4 по слайдам | [carousels.md](references/carousels.md) |
+| Профиль, Stories, план | [checklists.md](references/checklists.md) |
 | Аудит и работающие форматы | [analytics.md](references/analytics.md), scripts/rank_reels.py |
 | Монтаж и выбор движка | [video.md](references/video.md) |
 | Режиссура, сцены, камера | [animation-direction.md](references/animation-direction.md) |
@@ -37,6 +38,13 @@ description: >-
 | Серия из 50 коротких Reels | [batch-reels.md](references/batch-reels.md), scripts/validate_batch.py |
 | Отложенная публикация | [publishing.md](references/publishing.md) |
 | Происхождение и права | [sources.md](references/sources.md), licenses/, LICENSE |
+
+## Обязательное правило каруселей
+
+Для карусели читать references/carousels.md. Выдавать каждую страницу отдельным
+файлом с отдельным превью/загрузкой: PNG/JPG для статичных слайдов, MP4 для
+анимированных. Общая картинка со всеми страницами — только дополнительное превью,
+не готовая карусель. Анимацию создавать при соответствующем запросе.
 
 ## Рабочий цикл
 

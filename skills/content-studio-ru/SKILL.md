@@ -3,7 +3,7 @@ name: content-studio-ru
 description: >-
   Создавать русскоязычный контент от идеи до готовых файлов. Использовать для
   сценариев Reels, хуков, подписей, каруселей, Stories, контент-плана, аудита,
-  монтажа, субтитров, Remotion, HyperFrames, Lemo Opuscar, MG Styles 15 и серий
+  монтажа, распознавания речи и надписей, анимированных субтитров, Remotion, HyperFrames, Lemo Opuscar, MG Styles 15 и серий
   коротких видео. Адаптировать голос и визуал к текущему автору и проверять файлы.
 ---
 
@@ -24,10 +24,16 @@ description: >-
 | Профиль, карусель, Stories, план | [checklists.md](references/checklists.md) |
 | Аудит и работающие форматы | [analytics.md](references/analytics.md), scripts/rank_reels.py |
 | Монтаж и выбор движка | [video.md](references/video.md) |
+| Режиссура, сцены, камера | [animation-direction.md](references/animation-direction.md) |
+| Типографика, коллажи, новые стили | [motion-design.md](references/motion-design.md) |
+| Речь, таймкоды, SRT, анимированные субтитры | [captions.md](references/captions.md), scripts/captions_io.py |
+| OCR: надписи на изображениях и кадрах | [ocr.md](references/ocr.md) |
+| Звук и озвучка | [audio.md](references/audio.md) |
+| Подключения и ключи | [connections.md](references/connections.md) |
 | React / Remotion | [remotion.md](references/remotion.md) |
-| HTML-видео / HyperFrames | [engines.md](references/engines.md) |
-| Фильм, анимация, 66 стилей Lemo | [engines.md](references/engines.md) |
-| Motion design, 15 рецептов MG Styles | [engines.md](references/engines.md) |
+| HTML-видео / HyperFrames | [hyperframes.md](references/hyperframes.md) |
+| Фильм, анимация, 66 стилей Lemo | [lemo-styles-66.md](references/lemo-styles-66.md), [engines.md](references/engines.md) |
+| Motion design, 15 рецептов MG Styles | [mg-styles-15.md](references/mg-styles-15.md) |
 | Серия из 50 коротких Reels | [batch-reels.md](references/batch-reels.md), scripts/validate_batch.py |
 | Отложенная публикация | [publishing.md](references/publishing.md) |
 | Происхождение и права | [sources.md](references/sources.md), licenses/, LICENSE |
